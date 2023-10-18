@@ -12,8 +12,8 @@ window.addEventListener('scroll', function () {
 
 window.addEventListener("load",function(){
     var loader = document.getElementById("preprocessor");
-    loader.style.display = "none";
-})
+    loader.style.display = "none"
+});
 
 document.addEventListener("DOMContentLoaded", function() {
     const navLinks = document.querySelectorAll('#myNav .nav-link');
@@ -35,3 +35,5 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
+
